@@ -1,0 +1,10 @@
+/* partial _mobile.scss */
+/* <link href="/css/mobile.css" media="print" rel="stylesheet" type="text/css" /> */
+
+@media (max-width: 600px) { //increases font size and padding for mobile
+    .contact p {
+      font-size: 1.6em;
+      padding-top: .8em;
+      padding-bottom: .5em;
+    }
+  }

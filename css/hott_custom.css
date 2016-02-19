@@ -5,12 +5,13 @@
   pink: #ec297b
   nav-a gray: #303030
   navbar bg: #757575
-
+  ===
   custom font (google)
   Crete Round
   */
 
 /* GLOBAL RULES */
+
 body {
   background-color: white;
   background-image: url('../img/patterns/seamless_paper.png');
