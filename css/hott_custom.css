@@ -1,0 +1,341 @@
+/* Pixel Engineering Co -- Custom CSS -- Handcrafted Code -- */
+/* www.hottmansisters.com -- */
+
+/* custom colors
+  pink: #ec297b
+  nav-a gray: #303030
+  navbar bg: #757575
+
+  custom font (google)
+  Crete Round
+  */
+
+/* GLOBAL RULES */
+body {
+  background-color: white;
+  background-image: url('../img/patterns/seamless_paper.png');
+  font-size: 20px;
+  font-family: sans-serif;
+  z-index: -200;
+  overflow-x: hidden; /* fixes iPhone right margin */
+}
+
+/* NAV SECT */
+.nav-sect {
+  display: block;
+  width: 100%;
+}
+
+.mblnav, #mblmenu {
+  display: none;
+}
+
+.fullnav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 2.5em;
+  background-color: #757575;
+  font-family: 'Crete Round', serif;
+  font-size: 2.3em;
+}
+
+.fullnav a {
+  color: #303030;
+  text-decoration: none;
+  transition: color .3s ease-in;
+}
+
+.nav-list a:hover {
+  color: #7EFFE3 /* hover color */
+}
+#brand {
+  display: inline-block;
+  padding-left: calc(15% - 2em);
+  padding-top: .2em;
+  z-index: 10;
+}
+
+#brand img {
+  width: 5em;
+}
+
+.logo-mbl {
+  margin-top: .3em;
+}
+
+.nav-list {
+  padding-right: .7em;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: .5em;
+  margin-top: .7em;
+}
+
+.nav-social {
+  display: inline-block;
+  position: absolute;
+  margin-top: .8em;
+  right: 1.2em;
+  z-index: 10;
+}
+
+.nav-social a {
+  margin-right: 1.5em;
+}
+.nav-social a:hover {
+  color: #ec297b;
+}
+/* =============== */
+
+/* INTRO SECT */
+.sect-1 {
+  padding: 0px;
+}
+
+.intro img{
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 0px;
+}
+/* =============== */
+
+/* ALL SECTION DIVS */
+.sect-div {
+  width: 100%;
+  height: 2em;
+  line-height: 2em;
+  font-family: 'Crete Round', serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #272727
+}
+
+/*.sect-bar {
+  content: "";
+  display: inline-flex;
+  position: relative;
+  height: .4em;
+  width: 3.1em;
+  left: -3.3em;
+  top: 0px;
+  z-index: -5;
+  background-color: #7D1A1A;
+}*/
+
+/* =============== */
+
+/* MEDIA SECT */
+.media-content {
+  padding: 0px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+.video iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* =============== */
+
+/* SHOWS SECT */
+.shows-content {
+  text-align: center;
+}
+
+.shows-content h2 {
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
+}
+
+.table-responsive {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.upcoming > tbody > td {
+  font-size: 1.3em;
+  color: red;
+}
+
+.table th { /* table row heads */
+  font-family: 'Crete Round', serif;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.table td {
+  text-align: left;
+  font-size: 1em;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.table td:first-child > p {
+  font-size: .8em;
+  margin-bottom: 0;
+}
+
+.table td p {
+  margin-bottom: 0;
+  /* takes out un-needed btm margin in table */
+}
+
+.table td span { /* target 'and' in stage column */
+  font-size: .7em;
+}
+
+/* =============== */
+
+/* MUSIC SECT */
+.music-content {
+  padding: 0px;
+}
+
+
+/* =============== */
+
+/* ABOUT SECT */
+.about-content {
+  padding: 0px;
+}
+
+
+/* =============== */
+
+/* FOOTER SECT */
+footer {
+  background-color: #757575;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-family: 'Crete Round', serif;
+}
+
+.logo {
+  text-align: center;
+}
+
+#logo img {
+  display: inline-block;
+  width: 200px;
+
+}
+
+.social {
+  padding-left: 2em;
+}
+
+.social span {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+
+.soc-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social .fa {
+  color: #FFFF50;
+  transition: color .3s ease-in;
+}
+
+.social .fa:hover {
+  color: #303030;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact .fa {
+  color: #FFFF50;
+  margin-right: .5em;
+}
+
+.contact p > a {
+  color: yellow;
+}
+
+.legal {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.legal span {
+  font-size: .8em;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 701px){
+  .mblnav {
+    display: none;
+  }
+
+}/*END @media >700px*/
+
+@media (max-width: 920px){
+  .mblnav {
+    display: none;
+  }
+  body {
+    font-size: 16px
+  }
+  .table-responsive {
+    width: 100%;
+  }
+  .table td {
+    font-size: 1.2em;
+  }
+
+}/*END @media >700px*/
+
+@media all and (min-width: 300px) and (max-width: 900px){
+    body {
+      font-size: 14px;
+    }
+    .fullnav {
+    display: none;
+    }
+
+    .nav-social {
+      display: none;
+    }
+
+    .mblnav {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    }
+    .mblnav li {
+      width: 100%;
+      height: 1.5em;
+      background-color: dimgray;
+      border-bottom: 1px solid gray;
+    }
+    .contact {
+      margin-top: 1em;
+    }
+    .social {
+      text-align: center;
+    }
+}/*END @media <700px*/
