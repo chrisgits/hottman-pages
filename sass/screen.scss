@@ -31,7 +31,7 @@ body {
 }
 
 /* back-to-top nav */
-.back-to-top {
+.back_to_top {
 background: none;
 margin: 0;
 position: fixed;
@@ -43,9 +43,8 @@ z-index: 100;
 display: none;
 text-decoration: none;
 color: #ffffff;
-background-color: red;//ff9000
 }
-.back-to-top i {
+.back_to_top i {
   font-size: 60px;
 }
 

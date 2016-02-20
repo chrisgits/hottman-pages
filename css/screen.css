@@ -73,24 +73,21 @@ body {
   /* fixes iPhone right margin */ }
 
 /* back-to-top nav */
-.back-to-top {
-background: none;
-margin: 0;
-position: fixed;
-bottom: 0;
-right: 0;
-width: 70px;
-height: 70px;
-z-index: 100;
-display: none;
-text-decoration: none;
-color: #ffffff;
-background-color: red;/*ff9000*/
-}
-.back-to-top i {
-  font-size: 60px;
-}
+.back_to_top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff; }
 
+.back_to_top i {
+  font-size: 60px; }
 
 /* NAV SECT */
 .nav-sect {
@@ -151,7 +148,7 @@ background-color: red;/*ff9000*/
   transition: color .3s ease-in; }
 
 .nav-social a:hover {
-  color: #ec297b; }
+  color: red; }
 
 /* =============== */
 /* INTRO SECT */
