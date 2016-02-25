@@ -11,10 +11,16 @@
     <title>the Hottman Sisters</title>
     <link rel="shortcut icon" href="img/favicon.png">
     <!-- <link rel="stylesheet" href="../hottman/css/reset.css"> -->
-    <!-- Bootstrap -->
-    <link href="../hottman/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ===== DEV ===== -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <!-- <link href="/css/hott_custom.css" rel="stylesheet"> -->
+    <!-- ===== PRODUCTION ===== -->
+<!--
+    <link href="../hottman/css/bootstrap.min.css" rel="stylesheet">
     <link href="../hottman/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+-->
+    <!-- ===== END PRODUCTION ===== -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://use.typekit.net/yil3hrx.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -34,7 +40,10 @@
         <div id="mblmenu">
           <span >
            <a href="index.html">the Hottman Sisters</a>
-           <a href="index.html"><img src="../hottman/img/hottman-logo_mbl.png"/></a>
+            <!-- DEV -->
+           <a href="index.html"><img src="../img/hottman-logo_mbl.png"/></a>
+            <!-- PROD -->
+<!--           <a href="index.html"><img src="../hottman/img/hottman-logo_mbl.png"/></a>-->
           </span>
           <i class="fa fa-bars fa-2x"></i>
         </div>
@@ -48,7 +57,11 @@
         </div><!--END mbl navbar-->
         <div class="fullnav">
           <span class="brand" >
-           <a href="index.html" class="logo-mbl"><img src="../hottman/img/hottman-logo_mbl_lg.png" alt="Band logo - text only" /> </a>
+            <!-- DEV -->
+           <a href="index.html" class="logo-mbl"><img src="/img/hottman-logo_mbl_lg.png" alt="Band logo - text only" /> </a>
+            <!-- PROD -->
+<!--            <a href="index.html" class="logo-mbl"><img src="../hottman/img/hottman-logo_mbl_lg.png" alt="Band logo - text only" /> </a>-->
+            
           </span>
           <ul class="nav-list">
             <li><a href="#media">media</a></li>
@@ -353,6 +366,7 @@
           </div>
           <div class="logo col-md-4 col-sm-4 hidden-xs">
             <span id="logo"><img src="/img/portrait-1@2x.jpg"/></span>
+            
           </div>
           <div class="contact col-md-4 col-sm-4 col-xs-12">
             <h3>Contact Information</h3>
@@ -384,5 +398,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="../hottman/js/customjs.js"></script>
+    <!-- DEV -->
+    <script src="/js/customjs.js"></script>
+    <!-- PROD -->
+<!--        <script src="../hottman/js/customjs.js"></script>-->
+  
 </html>

@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   */
 /* GLOBAL RULES */
 body {
-  background-image: url("../img/patterns/seamless_paper.png");
+  background-image: url('/hottman/img/seamless_paper.png?1408294109');
   font-size: 20px;
   font-family: sans-serif;
   z-index: -200;
@@ -115,7 +115,7 @@ body {
   height: 60vw;
   font-family: "Crete Round", serif;
   font-size: 2.3em;
-  background-image: url("../img/intro_bg3@1x.jpg");
+  background-image: url('/hottman/img/intro_bg3@1x.jpg?1456204910');
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 100; }
@@ -127,7 +127,7 @@ body {
   position: relative;
   width: 100%;
   height: 60vw;
-  background-image: url("../img/intro_bg3@1x.jpg");
+  background-image: url('/hottman/img/intro_bg3@1x.jpg?1456204910');
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 100; }
@@ -303,7 +303,7 @@ tbody {
 
 /* individual cards */
 .card1 {
-  background-image: url("../img/both_bottom.jpg");
+  background-image: url('/hottman/img/both_bottom.jpg?1456204911');
   background-repeat: no-repeat;
   background-size: cover; }
 
