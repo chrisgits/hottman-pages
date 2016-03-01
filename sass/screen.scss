@@ -24,7 +24,7 @@ $fjalla-font: 'Fjalla One', sans-serif;
 /* GLOBAL RULES */
 body {
 //  background-color: white;
-  background-image: image-url('seamless_paper.png');
+  background-image: image-url('/img/seamless_paper.png');
   font-size: 20px;
   font-family: sans-serif;
   z-index: -200;
@@ -81,7 +81,7 @@ text-decoration: none;
 //  background-color: $navbar-bg;
   font-family: $crete-font;
   font-size: 2.3em;
-  background-image: image-url("intro_bg3@1x.jpg");
+  background-image: image-url("/img/intro_bg3@1x.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 100;
@@ -162,7 +162,7 @@ text-decoration: none;
 }
 .nav-social a:hover {
   color: $pink;
-  
+
 }
 /* =============== */
 
@@ -463,14 +463,14 @@ footer {
   .brand { //turn off logo on mobile
     display: none;
   }
-  
+
   .nav-list {
     width: inherit;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
   }
-  
+
 
 }/*END @media <500px*/
 
@@ -498,11 +498,11 @@ footer {
       justify-content: space-around;
       align-content: center;
     }
-    
+
     .shows-content {
       padding: 0;
     }
-  
+
     .contact > h3 {
       margin-top: 1.4em;
     }
